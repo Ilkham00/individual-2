@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 2 - DOM and Events Tasks 6-10 | Amirzhanov Ilkham</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Part 2 - DOM and Events</h1>
+    <p>Student: Amirzhanov Ilkham, group MT2503. Practice page for Tasks 6-10.</p>
+  </header>
+
+  <main>
+
+    <!-- TASK 6 -->
+    <section id="task-6" aria-labelledby="task-6-title">
+      <h2 id="task-6-title">Task 6. A counter with click events</h2>
+      <p>Counter: <strong id="counter-value">0</strong></p>
+      <button type="button" id="increase-button">Increase</button>
+      <button type="button" id="decrease-button">Decrease</button>
+      <button type="button" id="reset-button">Reset</button>
+    </section>
+
+    <!-- TASK 7 -->
+    <section id="task-7" aria-labelledby="task-7-title">
+      <h2 id="task-7-title">Task 7. Live text preview</h2>
+      <label for="preview-input">Type your text</label>
+      <input type="text" id="preview-input">
+      <button type="button" id="clear-button">Clear</button>
+      <p>Preview: <span id="preview-text"></span></p>
+      <p>Characters: <span id="character-count">0</span></p>
+    </section>
+
+    <!-- TASK 8 -->
+    <section id="task-8" aria-labelledby="task-8-title">
+      <h2 id="task-8-title">Task 8. Change an image with a select control</h2>
+      <label for="image-select">Choose an image</label>
+      <select id="image-select">
+        <option value="Grosh">Grosh</option>
+        <option value="Goddamn">Ogoddamn</option>
+        <option value="MirJeltok">Mir Jeltok</option>
+      </select>
+      <figure>
+        <img id="format-image" src="images/grosh.jpg" alt="grosh" width="300" height="200">
+        <figcaption id="format-caption">Grosh</figcaption>
+      </figure>
+    </section>
+
+    <!-- TASK 9 -->
+    <section id="task-9" aria-labelledby="task-9-title">
+      <h2 id="task-9-title">Task 9. Keyboard events</h2>
+      <form id="key-form">
+        <label for="key-input">Type here, press Enter to show the text, Escape to clear</label>
+        <input type="text" id="key-input">
+      </form>
+      <p id="key-status">Key pressed: none</p>
+      <p>Result: <span id="key-result"></span></p>
+    </section>
+
+    <!-- TASK 10 -->
+    <section id="task-10" aria-labelledby="task-10-title">
+      <h2 id="task-10-title">Task 10. Mouse and focus events</h2>
+      <div class="card-row">
+        <div id="hover-card" class="demo-card" tabindex="0">Cassette card</div>
+        <p id="card-instruction">Move the mouse over the card, or press Tab to focus it.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

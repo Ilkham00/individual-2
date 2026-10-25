@@ -1,0 +1,80 @@
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #f4f1ec;
+}
+
+section {
+  margin: 20px 0;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+button {
+  padding: 8px 14px;
+  border: 2px solid #111;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="text"],
+select {
+  padding: 8px;
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 12px 0 0;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.demo-card {
+  padding: 24px 32px;
+  background: #e8e0d0;
+  border: 2px solid #999;
+  border-radius: 10px;
+}
+
+/* Task 10: highlight (mouse and keyboard) */
+.demo-card.highlight {
+  background: #9a5fd0;
+  border-color: #111;
+  color: #fff;
+}
+
+/* visible focus indicator */
+:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 3px;
+}
